@@ -1,6 +1,4 @@
-include "main.h"
-
-
+#include "main.h"
 
 /**
  *
@@ -8,32 +6,30 @@ include "main.h"
  *
  *   */
 
-
-
 void print_alphabet_x10(void)
 
 {
 
-	int num;
+		int num;
 
-	char alpha;
+			char alpha;
 
 
 
-	for (num = 1; num <= 10; num++)
+				for (num = 1; num <= 10; num++)
 
-	{
+						{
 
-		for (alpha = 97; alpha < 123; alpha++)
+									for (alpha = 97; alpha < 123; alpha++)
 
-		{
+												{
 
-			_putchar(alpha);
+																_putchar(alpha);
 
-		}
+																		}
 
-		_putchar('\n');
+											_putchar('\n');
 
-	}
+												}
 
 }
